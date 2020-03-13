@@ -65,7 +65,7 @@ console.log(printBio);
 /*
 
 Quick one: 
-    *Assign the your name to the variable myName.
+    *Assign your name to the variable myName.
 
     *Assign the contents of myName to another variable printName.
 
