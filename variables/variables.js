@@ -6,13 +6,12 @@ Basic JavaScript: Declare JavaScript Variables
 
 In computer science, data is anything that is meaningful to the computer. JavaScript provides seven different data types which are:
 
-undefined,
- null, 
- boolean, 
- string, 
- symbol, 
- number, 
- and object.
+trivial -> undefined,
+ trivial -> null, 
+ primitive -> boolean, 
+ primitive -> string, 
+ primitive-> number, 
+ and composite data type -> object.
 
 For example, computers distinguish between numbers, such as the number 10, and strings, such as "10", "fish", or "1234 dogs", which are collections of characters. Computers can perform mathematical operations on a number, but not on a string!!.
 
@@ -34,10 +33,16 @@ You can see below for examples:
 // ###################### Basic JavaScript: Storing Values with the Assignment Operator
 
 var myName;
+//Before you use a variable in a JavaScript program, you must declare it. Variables are declared with the var keyword as follows.
 //Not the pattern the variable was name. It is a known pattern in variable naming called camelCasing.
 //This assigns the variable value to unefined.
 
+var name;
+var surname;
+
+var mother, child;
 console.log(myName);
+
 /* As discussed above we declared our variable with the name: myName. but we did not initialize yet. 
     In this situation javscript will see our variable as *undefined* which is unfortunaltely a data type in javascript.
     Run the code to confirm the output.
@@ -73,3 +78,22 @@ Quick one:
 
 
 */
+console.log(typeof printBio);
+
+// Setup
+var a;
+var b = 2;
+
+// Only change code below this line
+a = 7;
+b = a;
+
+// Only change code below this line
+var a;
+var b;
+var c;
+// Only change code above this line
+
+a = a + 1;
+b = b + 5;
+c = c + " String!";
