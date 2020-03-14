@@ -1,41 +1,41 @@
 var a = 33;
 var b = 10;
 var c = "Test";
-var linebreak = "<br />";
+var linebreak = " ";
 
-document.write("a + b = ");
+console.log("a + b = ");
 result = a + b;
-document.write(result);
-document.write(linebreak);
+console.log(result);
+console.log(linebreak);
 
-document.write("a - b = ");
+console.log("a - b = ");
 result = a - b;
-document.write(result);
-document.write(linebreak);
+console.log(result);
+console.log(linebreak);
 
-document.write("a / b = ");
+console.log("a / b = ");
 result = a / b;
-document.write(result);
-document.write(linebreak);
+console.log(result);
+console.log(linebreak);
 
-document.write("a % b = ");
+console.log("a % b = ");
 result = a % b;
-document.write(result);
-document.write(linebreak);
+console.log(result);
+console.log(linebreak);
 
-document.write("a + b + c = ");
+console.log("a + b + c = ");
 result = a + b + c;
-document.write(result);
-document.write(linebreak);
+console.log(result);
+console.log(linebreak);
 
 a = ++a;
-document.write("++a = ");
+console.log("++a = ");
 result = ++a;
-document.write(result);
-document.write(linebreak);
+console.log(result);
+console.log(linebreak);
 
 b = --b;
-document.write("--b = ");
+console.log("--b = ");
 result = --b;
-document.write(result);
-document.write(linebreak);
+console.log(result);
+console.log(linebreak);

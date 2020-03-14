@@ -103,3 +103,20 @@ Ex: (A >= B) is not true.
 Checks if the value of the left operand is less than or equal to the value of the right operand, if yes, then the condition becomes true.
 
 Ex: (A <= B) is true.
+
+## typeof Operator
+
+The typeof operator is a unary operator that is placed before its single operand, which can be of any type. Its value is a string indicating the data type of the operand.
+
+The typeof operator evaluates to "number", "string", or "boolean" if its operand is a number, string, or boolean value and returns true or false based on the evaluation.
+
+Here is a list of the return values for the typeof Operator.
+
+Type String Returned by typeof
+Number "number"
+String "string"
+Boolean "boolean"
+Object "object"
+Function "function"
+Undefined "undefined"
+Null "object"
