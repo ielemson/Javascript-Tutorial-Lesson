@@ -1,7 +1,6 @@
 //LESSON 1: HOW TO DECLARE JAVASCRIPT VARIABLES
 
 /*
-
 Basic JavaScript: Declare JavaScript Variables
 
 In computer science, data is anything that is meaningful to the computer. JavaScript provides seven different data types which are:
@@ -32,7 +31,9 @@ You can see below for examples:
 
 // ###################### Basic JavaScript: Storing Values with the Assignment Operator
 
-var myName;
+var myName = null;
+// console.log(typeof null);
+
 //Before you use a variable in a JavaScript program, you must declare it. Variables are declared with the var keyword as follows.
 //Not the pattern the variable was name. It is a known pattern in variable naming called camelCasing.
 //This assigns the variable value to unefined.
@@ -41,7 +42,11 @@ var name;
 var surname;
 
 var mother, child;
-console.log(myName);
+
+mother = "Mrs Aisha Buhari";
+child = "Miss Fatima";
+
+// console.log(myName);
 
 /* As discussed above we declared our variable with the name: myName. but we did not initialize yet. 
     In this situation javscript will see our variable as *undefined* which is unfortunaltely a data type in javascript.
@@ -56,7 +61,7 @@ This assigns the String value Elemson Ifeanyi to myName.
 
 Assignment always goes from right to left. Everything to the right of the = operator is resolved before the value is assigned to the variable to the left of the operator.
 */
-console.log(myName);
+// console.log(myName);
 /*
     Our variable have been asigned a data
 */
@@ -65,7 +70,7 @@ var myInfo = " Elemson Ifeanyi, Nigerian ,from Imo state 25 years old";
 
 var printBio = myInfo;
 
-console.log(printBio);
+// console.log(printBio);
 
 /*
 
@@ -78,7 +83,7 @@ Quick one:
 
 
 */
-console.log(typeof printBio);
+// console.log(typeof printBio);
 
 // Setup
 var a;
@@ -87,6 +92,7 @@ var b = 2;
 // Only change code below this line
 a = 7;
 b = a;
+// console.log("Variable b =" + b);
 
 // Only change code below this line
 var a;
@@ -95,5 +101,7 @@ var c;
 // Only change code above this line
 
 a = a + 1;
-b = b + 5;
-c = c + " String!";
+// b = b + 5;
+// c = c + " String!";
+
+console.log(a);
